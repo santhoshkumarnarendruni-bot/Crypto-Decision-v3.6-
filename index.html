@@ -730,7 +730,8 @@ async function run(){
         <b>YES:</b> ${(r.yes * 100).toFixed(1)}% &nbsp;&nbsp;&nbsp;&nbsp;  <span> <b class="conf">Confidence:</b> ${r.confidence}% </span><br>
         <b>NO:</b> ${(r.no * 100).toFixed(1)}% &nbsp;&nbsp;&nbsp;&nbsp;  <span><b>Confirmations:</b> ${r.confirmationCount}/2 </span><br>
 
-        <b>Score:</b> YES ${r.yesScore} / NO ${r.noScore}<br><br>
+    
+        <b>Score:</b>YES <span class="yes">  ${r.yesScore}</span> / NO <span class="no">${r.noScore}</span><br><br>
 
         <b>Timing:</b> ${r.timing}<br>
         
